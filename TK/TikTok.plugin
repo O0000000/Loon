@@ -1,0 +1,173 @@
+#!name = TikTok 解锁🔒
+#!desc = 自定义区域
+#!openUrl = https://github.com/O0000000
+#!author = 🐈
+#!system = 
+#!system_version = 
+#!homepage = https://github.com/O0000000
+
+
+
+[Rule]
+AND, ((GEOIP, CN), (DOMAIN, pitaya.bytedance.com)), DIRECT 
+DOMAIN, api.snapkit.com, TikTok
+DOMAIN, cocacola.co.jp, TikTok
+DOMAIN, courses.snapsolve.com, TikTok
+DOMAIN, engagements.appsflyer.com, TikTok
+DOMAIN, lf16-campaign.ttlstatic.com, TikTok
+DOMAIN, lf16-csp.oecstatic.com, TikTok
+DOMAIN, lf16-pkgcdn.pitaya-clientai.com, TikTok
+DOMAIN, lf16-scmcdn.oecstatic.com, TikTok
+DOMAIN, lf19-csp.oecstatic.com, TikTok
+DOMAIN, lf19-pkgcdn.pitaya-clientai.com, TikTok
+DOMAIN, lf19-scmcdn.oecstatic.com, TikTok
+DOMAIN, musically-alternate.app.link, TikTok
+DOMAIN, musically.app.link, TikTok
+DOMAIN, p1-tt-ipv6.byteimg.com, TikTok
+DOMAIN, p1-tt.byteimg.com, TikTok
+DOMAIN, p26-tt.byteimg.com, TikTok
+DOMAIN, p3-tt-ipv6.byteimg.com, TikTok
+DOMAIN, p9-tt.byteimg.com, TikTok
+DOMAIN, pull-f3-hs.pstatp.com, TikTok
+DOMAIN, pull-f5-hs.flive.pstatp.com, TikTok
+DOMAIN, pull-f5-hs.pstatp.com, TikTok
+DOMAIN, pull-f5-mus.pstatp.com, TikTok
+DOMAIN, pull-flv-f1-hs.pstatp.com, TikTok
+DOMAIN, pull-flv-f6-hs.pstatp.com, TikTok
+DOMAIN, pull-flv-l1-hs.pstatp.com, TikTok
+DOMAIN, pull-flv-l1-mus.pstatp.com, TikTok
+DOMAIN, pull-flv-l6-hs.pstatp.com, TikTok
+DOMAIN, pull-hls-l1-mus.pstatp.com, TikTok
+DOMAIN, pull-l3-hs.pstatp.com, TikTok
+DOMAIN, pull-rtmp-f1-hs.pstatp.com, TikTok
+DOMAIN, pull-rtmp-f6-hs.pstatp.com, TikTok
+DOMAIN, pull-rtmp-l1-hs.pstatp.com, TikTok
+DOMAIN, pull-rtmp-l1-mus.pstatp.com, TikTok
+DOMAIN, pull-rtmp-l6-hs.pstatp.com, TikTok
+DOMAIN, roovza-launches.appsflyersdk.com, TikTok
+DOMAIN-SUFFIX, bytedance.com, TikTok
+DOMAIN-SUFFIX, bytedance.net, TikTok
+DOMAIN-SUFFIX, bytedapm.com, TikTok
+DOMAIN-SUFFIX, bytefcdn-oversea.com, TikTok
+DOMAIN-SUFFIX, bytefcdn-ttpeu.com, TikTok
+DOMAIN-SUFFIX, bytegecko-i18n.com, TikTok
+DOMAIN-SUFFIX, byteglb.com, TikTok
+DOMAIN-SUFFIX, byteicdn.com, TikTok
+DOMAIN-SUFFIX, byteigtm.com, TikTok
+DOMAIN-SUFFIX, byteintl.com, TikTok
+DOMAIN-SUFFIX, byteintl.net, TikTok
+DOMAIN-SUFFIX, byteoversea.com, TikTok
+DOMAIN-SUFFIX, byteoversea.net, TikTok
+DOMAIN-SUFFIX, bytetcdn.com, TikTok
+DOMAIN-SUFFIX, capcut.com, TikTok
+DOMAIN-SUFFIX, ibytedtos.com, TikTok
+DOMAIN-SUFFIX, ibyteimg.com, TikTok
+DOMAIN-SUFFIX, ipstatp.com, TikTok
+DOMAIN-SUFFIX, isnssdk.com, TikTok
+DOMAIN-SUFFIX, muscdn.com, TikTok
+DOMAIN-SUFFIX, musemuse.cn, TikTok
+DOMAIN-SUFFIX, musical.ly, TikTok
+DOMAIN-SUFFIX, sgpstatp.com, TikTok
+DOMAIN-SUFFIX, sgsnssdk.com, TikTok
+DOMAIN-SUFFIX, tik-tokapi.com, TikTok
+DOMAIN-SUFFIX, tiktok-usts.net, TikTok
+DOMAIN-SUFFIX, tiktok.com, TikTok
+DOMAIN-SUFFIX, tiktok.in, TikTok
+DOMAIN-SUFFIX, tiktokcdn-eu.com, TikTok
+DOMAIN-SUFFIX, tiktokcdn-eu.net, TikTok
+DOMAIN-SUFFIX, tiktokcdn-in.com, TikTok
+DOMAIN-SUFFIX, tiktokcdn-us.com, TikTok
+DOMAIN-SUFFIX, tiktokcdn.com, TikTok
+DOMAIN-SUFFIX, tiktokd.net, TikTok
+DOMAIN-SUFFIX, tiktokd.org, TikTok
+DOMAIN-SUFFIX, tiktokglobalshop.com, TikTok
+DOMAIN-SUFFIX, tiktokglobalshopv.com, TikTok
+DOMAIN-SUFFIX, tiktokmusic.app, TikTok
+DOMAIN-SUFFIX, tiktokshop.com, TikTok
+DOMAIN-SUFFIX, tiktokstaticb.com, TikTok
+DOMAIN-SUFFIX, tiktokv.com, TikTok
+DOMAIN-SUFFIX, tiktokv.eu, TikTok
+DOMAIN-SUFFIX, tiktokv.us, TikTok
+DOMAIN-SUFFIX, tiktokw.us, TikTok
+DOMAIN-SUFFIX, tlivecdn.com, TikTok
+DOMAIN-SUFFIX, tlivepush.com, TikTok
+DOMAIN-SUFFIX, ttadsmanager.com, TikTok
+DOMAIN-SUFFIX, ttapis.com, TikTok
+DOMAIN-SUFFIX, ttdns2.com, TikTok
+DOMAIN-SUFFIX, ttlivecdn.com, TikTok
+DOMAIN-SUFFIX, ttoversea.net, TikTok
+DOMAIN-SUFFIX, ttoverseaus.net, TikTok
+DOMAIN-SUFFIX, ttwstatic.com, TikTok
+DOMAIN-SUFFIX, tzvbfs.com, TikTok
+DOMAIN-KEYWORD, bytedance.map., TikTok
+DOMAIN-KEYWORD, musical.ly., TikTok
+DOMAIN-KEYWORD, tiktokcdn-, TikTok
+DOMAIN-KEYWORD, tiktokcdn.com., TikTok
+DOMAIN-KEYWORD, tiktokv.com., TikTok
+DOMAIN-KEYWORD, ttcdn-tos., TikTok
+DOMAIN-KEYWORD, ttlivecdn.com., TikTok
+
+
+[Rewrite]
+# 移除广告
+^https:\/\/api-va\.tiktokv\.com\/api\/ad\/ reject
+# 解析域名
+^https:\/\/tnc\d+-platform-\w+\.tiktokv\.com\/get_domains\/ reject
+
+
+
+[Argument]
+TikTokTW = switch, true, false, tag = TW台湾🇨🇳, desc = 是否启用TikTokTW
+TikTokKR = switch, true, false, tag = KR韩国🇰🇷, desc = 是否启用TikTokKR
+TikTokJP = switch, true, false, tag = JP日本🇯🇵, desc = 是否启用TikTokJP
+TikTokUS = switch, true, false, tag = US美国🇺🇸, desc = 是否启用TikTokUS
+TikTokTH = switch, true, false, tag = TH泰国🇹🇭, desc = 是否启用TikTokTH
+TikTokDE = switch, true, false, tag = DE德国🇩🇪, desc = 是否启用TikTokDE
+TikTokUK = switch, true, false, tag = UK英国🇬🇧, desc = 是否启用TikTokUK
+TikTokFR = switch, true, false, tag = FR法国🇫🇷, desc = 是否启用TikTokFR
+TikTokVN = switch, true, false, tag = VN越南🇻🇳, desc = 是否启用TikTokVN
+TikTokBR = switch, true, false, tag = BR巴西🇧🇷, desc = 是否启用TikTokBR
+TikTokSG = switch, true, false, tag = SG新加坡🇸🇬, desc = 是否启用TikTokSG
+TikTokPH = switch, true, false, tag = PH菲律宾🇵🇭, desc = 是否启用TikTokPH
+TikTokES = switch, true, false, tag = ES西班牙🇪🇸, desc = 是否启用TikTokES
+TikTokTR = switch, true, false, tag = TR土耳其🇹🇷, desc = 是否启用TikTokTR
+TikTokMX = switch, true, false, tag = MX墨西哥🇲🇽, desc = 是否启用TikTokMX
+TikTokRU = switch, true, false, tag = RU俄罗斯🇷🇺, desc = 是否启用TikTokRU
+TikTokAR = switch, true, false, tag = AR阿根廷🇦🇷, desc = 是否启用TikTokAR
+TikTokNZ = switch, true, false, tag = NZ新西兰🇳🇿, desc = 是否启用TikTokNZ
+TikTokIT = switch, true, false, tag = IT意大利🇮🇹, desc = 是否启用TikTokIT
+TikTokCA = switch, true, false, tag = CA加拿大🇨🇦, desc = 是否启用TikTokCA
+TikTokUA = switch, true, false, tag = UA乌克兰🇺🇦, desc = 是否启用TikTokUA
+TikTokAU = switch, true, false, tag = AU澳大利亚🇦🇺, desc = 是否启用TikTokAU
+TikTokMY = switch, true, false, tag = MY马来西亚🇲🇾, desc = 是否启用TikTokMY
+
+
+
+[Script]
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokTW.js, enable={TikTokTW}, tag = TikTok TW台湾🇨🇳
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokKR.js, enable={TikTokKR}, tag = TikTok KR韩国🇰🇷
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokJP.js, enable={TikTokJP}, tag = TikTok JP日本🇯🇵
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokUS.js, enable={TikTokUS}, tag = TikTok US美国🇺🇸
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokTH.js, enable={TikTokTH}, tag = TikTok TH泰国🇹🇭
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokDE.js, enable={TikTokDE}, tag = TikTok DE德国🇩🇪
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokUK.js, enable={TikTokUK}, tag = TikTok UK英国🇬🇧
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokFR.js, enable={TikTokFR}, tag = TikTok FR法国🇫🇷
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokVN.js, enable={TikTokVN}, tag = TikTok VN越南🇻🇳
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokBR.js, enable={TikTokBR}, tag = TikTok BR巴西🇧🇷
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokSG.js, enable={TikTokSG}, tag = TikTok SG新加坡🇸🇬
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokPH.js, enable={TikTokPH}, tag = TikTok PH菲律宾🇵🇭
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokES.js, enable={TikTokES}, tag = TikTok ES西班牙🇪🇸
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokTR.js, enable={TikTokTR}, tag = TikTok TR土耳其🇹🇷
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokMX.js, enable={TikTokMX}, tag = TikTok MX墨西哥🇲🇽
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokRU.js, enable={TikTokRU}, tag = TikTok RU俄罗斯🇷🇺
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokAR.js, enable={TikTokAR}, tag = TikTok AR阿根廷🇦🇷
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=NZ|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokNZ.js, enable={TikTokNZ}, tag = TikTok NZ新西兰🇳🇿
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=IT|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokIT.js, enable={TikTokIT}, tag = TikTok IT意大利🇮🇹
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CA|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokCA.js, enable={TikTokCA}, tag = TikTok CA加拿大🇨🇦
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=UA|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokUA.js, enable={TikTokUA}, tag = TikTok UA乌克兰🇺🇦
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=AU|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokAU.js, enable={TikTokAU}, tag = TikTok AU澳大利亚🇦🇺
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTokMY.js, enable={TikTokMY}, tag = TikTok MY马来西亚🇲🇾
+
+[MITM]
+hostname = *.byteoversea.com, *.tik-tokapi.com, *.tiktokv.com
+
