@@ -5,7 +5,7 @@
 #!system = 
 #!system_version = 
 #!homepage = https://github.com/O0000000
-
+#!icon = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/TK/TikTok.png
 
 [Rule]
 AND, ((GEOIP, CN), (DOMAIN, pitaya.bytedance.com)), DIRECT //
