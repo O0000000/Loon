@@ -1,0 +1,56 @@
+#!name = AppTesters 📲
+#!desc = ios App+++
+#!author = 🐈
+#!icon = https://raw.githubusercontent.com/O0000000/Loon/refs/heads/main/icon/Emoji.PNG
+
+[Rewrite]
+^https?://api\.revenuecat\.com/.+/(receipts$|subscribers/?(.*?)*$) response-header-del X-RevenueCat-ETag
+^https?://api\.revenuecat\.com/.+/(receipts$|subscribers/?(.*?)*$) response-header-del x-revenuecat-etag
+
+[Script]
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) script-path=https://apptesters.org/wp-content/uploads/AutoRC.js, requires-body=true, timeout=30, tag=api.revenuecat
+
+http-response https://api.adapty.io/api/v1/sdk/analytics/profiles script-path=https://apptesters.org/wp-content/uploads/Adapty.js, requires-body=true, tag=api.adapty.io
+
+http-response https://order.creativeappnow.com/iap/receipt script-path=https://apptesters.org/wp-content/uploads/Facemoji.js, requires-body=true, tag=order.creativeappnow.com
+
+http-response https:\/\/license\.pdfexpert\.com\/api\/2\.0\/(calendarslite|pdfexpert6|documents)\/subscription\/(refresh|check) script-path=https://apptesters.org/wp-content/uploads/readdle.js, requires-body=true, tag=license.pdfexpert.com
+
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://apptesters.org/wp-content/uploads/iTunes.js, requires-body=true, tag=buy.itunes.apple.com
+
+http-response us-central1-muslim-pro-app.cloudfunctions.net/GetUserPremiumInfo script-path=https://apptesters.org/wp-content/uploads/MuslimPro.js, requires-body=true, tag=us-central1-muslim-pro-app.cloudfunctions.net
+
+http-response ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ script-path=https://apptesters.org/wp-content/uploads/Grammarly.js, requires-body=true, tag=subscription.grammarly.com
+
+http-response api.esound.app/account script-path=https://apptesters.org/wp-content/uploads/eSound.js, requires-body=true, tag=api.esound.app
+
+http-response https://api.purchasely.io/paab/user_purchases script-path=https://apptesters.org/wp-content/uploads/purchasely.js, requires-body=true, tag=api.purchasely.io
+
+http-response prod.studysmarter.de/payments/info script-path=https://apptesters.org/wp-content/uploads/Vaia.js, requires-body=true, tag=prod.studysmarter.de
+
+http-response api.qonversion.io/v1/user/init script-path=https://apptesters.org/wp-content/uploads/qonversion.js, requires-body=true, tag=api.qonversion.io
+
+http-response https://api.mwm-users.com/me/features script-path=https://apptesters.org/wp-content/uploads/edjingMix.js, requires-body=true, tag=api.mwm-users.com
+
+http-response https://api-fra.vivacut.com/api/rest/commerce/integrate/vip/perform script-path=https://apptesters.org/wp-content/uploads/VivaCut.js, requires-body=true, tag=api-fra.vivacut.com
+
+http-response https://carrotweather.herokuapp.com/parse/functions/findSubscriptionsForUserId script-path=https://apptesters.org/wp-content/uploads/Carrot.js, requires-body=true, tag=carrotweather.herokuapp.com
+
+http-response https://api-account.kinemasters.com/v2/user/subscribe script-path=https://apptesters.org/wp-content/uploads/KineMaster.js, requires-body=true, tag=api-account.kinemasters.com
+
+http-request https://api.picsart.com/gw-v2/shop/subscription/apple/purchases script-path=https://apptesters.org/wp-content/uploads/PicsArt.js, requires-body=true, tag=api.picsart.com
+
+http-response https://us-central1-alight-creative.cloudfunctions.net/getAccountStatusAndLicenses script-path=https://apptesters.org/wp-content/uploads/AlightMotion.js, requires-body=true, tag=us-central1-alight-creative.cloudfunctions.net
+
+http-response api.sandbox.love/accounts/current script-path=https://apptesters.org/wp-content/uploads/SandBox.js, requires-body=true, tag=api.sandbox.love
+
+http-response subscriptions.songshift.com/validate script-path=https://apptesters.org/wp-content/uploads/SongShift.js, requires-body=true, tag=subscriptions.songshift.com
+
+http-response api.adblockpro.app/verify script-path=https://apptesters.org/wp-content/uploads/AdblockPro.js, requires-body=true, tag=api.adblockpro.app
+
+http-response ^https:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt\/(.*?) script-path=https://apptesters.org/wp-content/uploads/AdGuardPro.js, requires-body=true, tag=mobile-api.adguard
+
+http-response ILoveDevTheDev.com script-path=https://URL2Script.com, requires-body=true, tag=ILoveDevTheDev.com
+
+[MITM]
+hostname = api.revenuecat.com, buy.itunes.apple.com, api.picsart.com, api-account.kinemasters.com, us-central1-alight-creative.cloudfunctions.net, api.adapty.io, carrotweather.herokuapp.com, order.creativeappnow.com, api.mwm-users.com, us-central1-muslim-pro-app.cloudfunctions.net, prod.studysmarter.de, api.qonversion.io, subscription.grammarly.com, api.esound.app, api.purchasely.io, api.sandbox.love, subscriptions.songshift.com, api.adblockpro.app, mobile-api.adguard.org, url2script.com
