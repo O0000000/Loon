@@ -58,6 +58,7 @@
 # tb  xxx (淘宝)
 # zdm xxx (什么值得买)
 
+
 #>>> 苹果商店切换👇
 # cn  (切换至中国区)
 # hk  (切换至香港区)
@@ -180,8 +181,7 @@
 # sg  (切换至新加坡区)
 ^https:\/\/duckduckgo.com\/\?q=sg&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
 # bd  xxx (百度搜索)
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1%20-adclear 302
-^https:\/\/duckduckgo.com\/\?q=((.(?!bd))+)\+bd.+ https://www.baidu.com/s?wd=$1%20-adclear 302
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 # wk  xxx (维基搜索)
 ^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wk.+ https://zh.wikipedia.org/wiki/$1 302
